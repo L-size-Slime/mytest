@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  session-timeout: 30
+  tomcat.max-threads: 0
+  tomcat.uri-encoding: UTF-8
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/highschool
+    username: root
+    password: 888888
+mybatis:
+    type-aliases-package: com.wit.mytest
