@@ -9,4 +9,9 @@ public class LoginController {
     public String login(){
         return "login";//跳转到templates下的login.html页面，前提是thymeleaf依赖已经导入
     }
+
+    @RequestMapping("/signup")
+    public  String signup(){
+        return "signup";
+    }
 }
